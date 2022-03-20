@@ -26,6 +26,10 @@ select {
   -webkit-appearance: listbox !important;
 }
 .makeorder {
-  height: 80vh;
+  height: 100vh;
   border: solid 2px black;
+}
+.contactdetails {
+  color: rgba(250, 1, 43, 0.932);
+  font-size: 1.3rem;
 }
