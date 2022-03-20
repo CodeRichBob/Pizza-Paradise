@@ -22,6 +22,10 @@
   color: white;
   margin-top: 6rem;
 }
-/* .logo {
-  margin-right: 5px;
-} */
+select {
+  -webkit-appearance: listbox !important;
+}
+.makeorder {
+  height: 80vh;
+  border: solid 2px black;
+}
