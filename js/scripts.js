@@ -10,6 +10,11 @@ $(document).ready(function(){
         var pizzaCrust = $('.crust option:selected').val();
         var total = parseInt(pizzaSize) + parseInt(pizzaToppings) + parseInt(pizzaCrust);
         console.log(total);
+
+        // display table
+    $('table').show();
+    $('.more-buttons').show();
+    $('.order').hide();
     })
 })
 
