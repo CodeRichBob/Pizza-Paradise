@@ -58,30 +58,53 @@
                     <h3>SIZE</h3> <br>
                     <select class="form-control">
                         <option label="Small" value="500">Small</option>
-                        <option label="Medium" value="700">Medium</option>
+                        <option label="Medium" value="800">Medium</option>
                         <option label="Large" value="1000">Large</option>
                       </select>
                 </div>
                 <div class="col-md-4 col-sm-12">
                     <h3>CRUST</h3> <br>
                     <select class="form-control">
-                        <option label="Crispy" value="500">Crispy</option>
-                        <option label="Stuffed" value="700">Stuffed</option>
-                        <option label="Glutten-free" value="1000">Glutten-free</option>
+                        <option label="Crispy" value="400">Crispy</option>
+                        <option label="Stuffed" value="500">Stuffed</option>
+                        <option label="Glutten-free" value="600">Glutten-free</option>
                       </select>
                 </div>
                 <div class="col-md-4 col-sm-12">
                     <h3>Toppings</h3> <br>
                     <select class="form-control">
-                        <option label="Sweet corn" value="500">Sweet corn</option>
-                        <option label="Mushroom" value="700">Mushroom</option>
-                        <option label="Pineapple" value="1000">Pineapple</option>
-                        <option label="Pepperoni" value="1000">Pepperoni</option>
-                        <option label="Chicken" value="1000">Chicken</option>
+                        <option label="Sweet corn" value="100">Sweet corn</option>
+                        <option label="Mushroom" value="150">Mushroom</option>
+                        <option label="Pineapple" value="100">Pineapple</option>
+                        <option label="Pepperoni" value="150">Pepperoni</option>
+                        <option label="Chicken" value="200">Chicken</option>
                       </select>
                 </div>
             </div>
-            <button class="btn btn-warning text-white" type="submit">Order</button>
+            <button class="btn btn-warning text-white order" type="submit">Order</button>
+        </div>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">SIZE</th>
+                  <th scope="col">CRUST</th>
+                  <th scope="col">TOPPINGS</th>
+                  <th scope="col">TOTAL</th>
+                </tr>
+              </thead>
+              <tbody class="displayOrder">
+                <tr>
+                  <th scope="row">1</th>
+                  <td id="size"></td>
+                  <td id="crust"></td>
+                  <td id="toppings"></td>
+                  <td id="total"></td>
+                </tr>
+        </table>
+        <div class="more-buttons align-items-center justify-content-center text-center mb-3">
+            <button class="btn btn-warning text-white addPizza align-items-center" type="submit">Add Pizza</button>
+            <button class="btn btn-warning text-white Checkout align-items-right" type="submit">Checkout</button>
         </div>
     </section>
     <section class="end bg-black text-white col-md-12">

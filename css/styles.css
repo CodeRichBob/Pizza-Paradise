@@ -26,7 +26,7 @@ select {
   -webkit-appearance: listbox !important;
 }
 .makeorder {
-  height: 100vh;
+  /* height: 100vh; */
   border: solid 2px black;
 }
 .contactdetails {
