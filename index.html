@@ -9,22 +9,23 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-md bg-black navbar-dark">
+    <nav class="navbar navbar-expand-md bg-black navbar-dark fixed-top">
         <div class="container"> 
-            <a href="#" class="navbar-brand">Pizza Paradise</a>
+            <img class="logo" src="/assets/pizza paradise.jpg" alt="" height="60px" width="60px">
+            <a href="#" class="navbar-brand px-1">Pizza Paradise</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navmenu">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item px-5">
                         <a href="#HOME" class="nav-link">HOME</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item px-5">
                         <a href="#ORDER" class="nav-link">ORDER ONLINE</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item px-5">
                         <a href="#CONTACT" class="nav-link">CONTACT</a>
                     </li>
                 </ul>
@@ -32,6 +33,21 @@
             </div>
         </div>
     </nav>
+    <!-- First section with background image -->
+    <section class="bgimg">
+        <div class="container-fluid has-bg-img col-lg-12 col-md-12 col-sm-12 col-xs-12 narration">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 "style = "margin-top: 100px">
+                    <p>No Matter What Happens, <br>
+                        Pizza will always be there 
+                       for you, <br> thic and thin , <br>
+                        in the crust we trust.</p>
+                </div>
+                
+            </div>
+            <a href="#"><button type="button" class="btn btn-warning btn-lg">ORDER ONLINE</button></a>
+        </div>
+    </section>
     <script src="/js/bootstrap.bundle.js"></script>
 </body>
 </html>
