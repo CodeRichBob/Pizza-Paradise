@@ -1,6 +1,7 @@
 $(document).ready(function(){
     $('table').hide();
     $('.more-buttons').hide();
+    $('.yesno').hide();
 
     // adding functionality to order button
 
@@ -52,14 +53,13 @@ $(document).ready(function(){
     $('.Checkout').click(function(){
         $('.addPizza').hide();
         $('.Checkout').hide();
-        $('#exampleModal').modal('show');
+        $('.yesno').show();
         
     })
     $('.yes').click(function(){
-        alert('You will be charged an additional 100 for delivery. Your total bill is:' + subTotal)
-        $("#exampleModal").modal('hide');
-        $('.table').hide();
-        $('.order').show();
+        prompt("Where would you like your order to be delivered?");
+        alert("We have received your order and it shall be delivered to you at an additional cost of Sh 100");
+        alert("Your bill is Ksh:"+parseInt(subTotal) + parseInt(200));
     })
 
     });
