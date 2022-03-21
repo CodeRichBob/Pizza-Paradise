@@ -17,7 +17,7 @@ https://coderichbob.github.io/Pizza-Paradise/
 ## Screenshot
 
 ​
-<img src="https://raw.githubusercontent.com/george-ongaya1/delaniStudios/master/images/screenshots/Screenshot from 2021-06-21 15-09-00.png" width="900px" height="440px">
+<img src="" width="900px" height="440px">
 
 ​
 
