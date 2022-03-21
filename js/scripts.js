@@ -48,6 +48,13 @@ $(document).ready(function(){
         console.log(newPizzaOrder.totalPrice);
         $('.displayOrder').append(orderDetails);
     });
+    //checkout
+    $('.Checkout').click(function(){
+        $('.addPizza').hide();
+        $('.Checkout').hide();
+        $('#exampleModal').modal('show');
+        
+    })
 
     });
 
