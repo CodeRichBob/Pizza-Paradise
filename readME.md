@@ -11,7 +11,7 @@ Robert Gitonga
 ​
 Pizza Paradise is a web application where customers order different sizes of pizzas with one or more toppings.
 ​
-https://github.
+https://coderichbob.github.io/Pizza-Paradise/
 ​
 
 ## Screenshot
@@ -60,4 +60,4 @@ If you have any questions or contributions, please reach me at.
 ​
 
 - MIT License
-- Copyright (c) 2022 by Robert (https)
+- Copyright (c) 2022 by Robert (https://coderichbob.github.io/Pizza-Paradise/)
