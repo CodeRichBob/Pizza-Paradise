@@ -27,9 +27,12 @@ select {
 }
 .makeorder {
   /* height: 100vh; */
-  border: solid 2px black;
+  border: solid 2px rgba(250, 1, 43, 0.932);
 }
 .contactdetails {
   color: rgba(250, 1, 43, 0.932);
   font-size: 1.3rem;
+}
+#HOME {
+  font-family: "Courgette", cursive;
 }
