@@ -39,14 +39,14 @@ $(document).ready(function(){
         var pizzaToppings = $('.toppings option:selected').val();
         var pizzaCrust = $('.crust option:selected').val();
         var totalPrice = parseInt(pizzaSize) + parseInt(pizzaToppings) + parseInt(pizzaCrust);
-        subTotal = subTotal + totalPrice
+        subTotal = subTotal + totalPrice;
         item = item + 1
         
         var newPizzaOrder = new pizzaOrder(pizzaSize,pizzaCrust,pizzaToppings,item,totalPrice)
         var orderDetails = '<tr><th scope="row">' + newPizzaOrder.item + '</th><td id="size">' + $(".size option:selected").text() +'</td><td id="crust">' + $(".crust option:selected").text() +'</td><td id="toppings">' + $(".toppings option:selected").text() +'</td><td id="total">' + newPizzaOrder.totalPrice + '</td></tr>'
         //appending order details to the table
-        console.log(newPizzaOrder.totalPrice);
         $('.displayOrder').append(orderDetails);
+        console.log(subTotal);
     });
     //checkout
     $('.Checkout').click(function(){
@@ -54,6 +54,12 @@ $(document).ready(function(){
         $('.Checkout').hide();
         $('#exampleModal').modal('show');
         
+    })
+    $('.yes').click(function(){
+        alert('You will be charged an additional 100 for delivery. Your total bill is:' + subTotal)
+        $("#exampleModal").modal('hide');
+        $('.table').hide();
+        $('.order').show();
     })
 
     });
