@@ -54,12 +54,16 @@ $(document).ready(function(){
         $('.addPizza').hide();
         $('.Checkout').hide();
         $('.yesno').show();
+        subTotal = subTotal + totalPrice
         
     })
     $('.yes').click(function(){
         prompt("Where would you like your order to be delivered?");
         alert("We have received your order and it shall be delivered to you at an additional cost of Sh 100");
-        alert("Your bill is Ksh:"+parseInt(subTotal) + parseInt(200));
+        alert("Your bill is Ksh:"+parseInt(subTotal + 100));
+    })
+    $('.no').click(function(){
+        alert("Thank you for enjoying our pizza. Your bill is Ksh:"+subTotal);
     })
 
     });
